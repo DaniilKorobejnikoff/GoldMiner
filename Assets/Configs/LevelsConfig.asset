@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d31a43e4ee2740f091eb3920b5c482a2, type: 3}
+  m_Name: LevelsConfig
+  m_EditorClassIdentifier: 
+  _levels:
+  - id: 0
+    levelLength: 60
+    startSpeed: 3
+    endSpeed: 10
+    goldForPass: 5
+    _levelBackgroundSprite: {fileID: 21300000, guid: 794ff55b0d3b6684fa54b4fe5ab05b52, type: 3}
+    interactableSpawnData:
+    - interactableType: 2
+      interactableGrade: 0
+      startCooldown: 2
+      endCooldown: 1
+      prewarmTime: 5
+    - interactableType: 1
+      interactableGrade: 0
+      startCooldown: 3
+      endCooldown: 2
+      prewarmTime: 0
+  - id: 1
+    levelLength: 120
+    startSpeed: 2
+    endSpeed: 20
+    goldForPass: 10
+    _levelBackgroundSprite: {fileID: 21300000, guid: 844c78fcf45416c4699d02025f9c6d66, type: 3}
+    interactableSpawnData:
+    - interactableType: 1
+      interactableGrade: 0
+      startCooldown: 2
+      endCooldown: 1
+      prewarmTime: 0
+    - interactableType: 2
+      interactableGrade: 0
+      startCooldown: 2.2
+      endCooldown: 1.2
+      prewarmTime: 0
